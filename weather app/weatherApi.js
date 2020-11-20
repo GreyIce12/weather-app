@@ -1,4 +1,4 @@
-const apiKey = "u9R8YkVB1p7VLwdiRx6BLxAirzNGUK47";
+const apiKey = "KKnZCJxXNxvnZdTRxYB9FPpfNWn9jkZF";
 
 const getCityCondition = async (location) =>{
 
