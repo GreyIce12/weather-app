@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/0fd7cd8ab0.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4vsE0HHWw2ggM7pSuzpx4_zw56olVIivTuQ&usqp=CAUfavicon.ico" type="image/x-icon">
+    <title>weather app</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-muted text-center ">Weather App</h1>
+        <form class="change-location text-center text-muted">
+            <label for="city"> Enter a city</label>
+            
+                <input type="text" name="city" class="form-control" placeholder="Enter a City"><br>
+                <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i></button>
+            
+        </form>
+
+        <div class="card shadow-lg rounded d-none">
+            <img src="https://via.placeholder.com/400x300" class="time card-img-top">
+
+            <div class="icon bg-light text-center">
+                <img src="" alt="" >
+            </div>
+                <div class="details text-muted text-uppercase text-center">
+                    <h5>City</h5>
+                    <div>Weather</div>
+                    <div class="display-4">
+                        <span class="one">temp</span>
+                        <span>&deg;C</span>
+                    </div>
+                </div>
+        </div>
+    </div>
+    
+</body>
+<script src="weatherApi.js"></script>
+<script src="app.js"></script>
+
+</html>
