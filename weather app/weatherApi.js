@@ -2,7 +2,7 @@ const apiKey = "KKnZCJxXNxvnZdTRxYB9FPpfNWn9jkZF";
 
 const getCityCondition = async (location) =>{
 
-        const base = 'https://dataservice.accuweather.com/currentconditions/v1/';
+        const base = 'http://dataservice.accuweather.com/currentconditions/v1/';
 
     const query = `${location}?apikey=${apiKey}`;
 
