@@ -20,7 +20,7 @@ const displayWeather = (data) =>{
     weather.textContent = data.condition.WeatherText;
     currentCity.textContent = data.cityLocation.EnglishName;
 
-    const dayTime = (data.condition.IsDayTime)? 'https://cdn.pixabay.com/photo/2013/03/29/09/27/clouds-97453_960_720.jpg': 'https://cdn.pixabay.com/photo/2017/02/20/06/01/stars-2081685_960_720.jpg';
+     const dayTime = (data.condition.IsDayTime)? 'https://i1.wp.com/metro.co.uk/wp-content/uploads/2018/06/gettyimages-900256522.jpg?quality=90&strip=all&w=1200&h=630&crop=1&zoom=1&ssl=1': 'https://image.freepik.com/free-vector/night-time-nature-landscape-with-house-full-moon_16058-81.jpg';
 
     time.setAttribute("src", dayTime);
 
